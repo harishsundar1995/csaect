@@ -91,7 +91,11 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Donate</a>
+                                        <!-- <a href="contact.html" class="btn header-btn">Donate</a> -->
+                                        <button type="button" class="btn header-btn" data-toggle="modal"
+                                            data-target="#donate">
+                                            Donate
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -354,6 +358,27 @@
             </div>
         </div>
     </footer>
+
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="donateModal"><strong>Scan QR or Use UPI Done</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/csacet-qr.jpg" alt="csaect-qr" class="img-fluid">
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
 
     <!-- Scroll Up -->
     <div id="back-top">
