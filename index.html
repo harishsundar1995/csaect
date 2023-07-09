@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -188,10 +191,10 @@
                         <!-- about-img -->
                         <div class="about-img ">
                             <div class="about-font-img d-none d-lg-block">
-                                <img src="assets/img/gallery/about2.png" alt="">
+                                <img src="assets/img/gallery/about12.png" alt="" class="img-fluid">
                             </div>
                             <div class="about-back-img ">
-                                <img src="assets/img/gallery/about1.png" alt="">
+                                <img src="assets/img/gallery/about11.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
@@ -215,10 +218,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-null-1"></span>
+                                <span><i class="fa-solid fa-graduation-cap"></i></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Educational Funds</a></h5>
+                                <h5><a href="#" data-toggle="modal" data-target="#educational-funds">Educational
+                                        Funds</a></h5>
                                 <p>Empowering communities through education with your support - donate to our NGO's
                                     educational fund today</p>
                             </div>
@@ -227,10 +231,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-null-1"></span>
+                                <span><i class="fa-solid fa-briefcase-medical"></i></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Health Funds</a></h5>
+                                <h5><a href="#" data-toggle="modal" data-target="#health-funds">Health Funds</a></h5>
                                 <p>Improving lives through better health - support our NGO's health fund to make a
                                     difference in your community</p>
                             </div>
@@ -239,22 +243,23 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-gear"></span>
+                                <span><i class="fa-solid fa-utensils"></i></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Emergency Funds</a></h5>
-                                <p>Responding to crises and saving lives - donate to our NGO's emergency fund and be a
-                                    hero in someone's time of need.</p>
+                                <h5><a href="#" data-toggle="modal" data-target="#ration-distribution">Ration
+                                        Distribution</a></h5>
+                                <p> We provide ration kits every alternate month for the underpriveleged families and
+                                    have been sucessful in providing about 80+ such kits in monthly basis.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-gear"></span>
+                                <span><i class="fa-solid fa-children"></i></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Child Help</a></h5>
+                                <h5><a href="#" data-toggle="modal" data-target="#child-help">Child Help</a></h5>
                                 <p>Every child deserves a chance to thrive - support our NGO's child help fund and make
                                     a positive impact on a child's life today</p>
                             </div>
@@ -263,10 +268,10 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-gear"></span>
+                                <span><i class="fa-solid fa-cloud-showers-water"></i></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Relief Funds</a></h5>
+                                <h5><a href="#" data-toggle="modal" data-target="#relief-funds">Relief Funds</a></h5>
                                 <p>Providing aid and hope in times of disaster - donate to our NGO's relief fund and
                                     help those affected by emergencies rebuild their lives.</p>
                             </div>
@@ -284,7 +289,8 @@
                     <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
-                            <h2>People Joining the Trust</h2>
+                            <h2>Growth Chart</h2>
+                            <h3>People Joined the Trust Since Establishment</h3>
                         </div>
                         <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
                             <a href="#"><img src="assets/img/chart/chart.png" alt=""></a>
@@ -361,21 +367,285 @@
 
     <!-- Donate Modal -->
     <div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="donateModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="donateModal"><strong>Scan QR or Use UPI Done</strong></h5>
+                    <h5 class="modal-title" id="donateModal"><strong>Scan QR or Use UPI to Donate</strong></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img src="./assets/img/csacet-qr.jpg" alt="csaect-qr" class="img-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/img/csacet-qr.jpg" alt="csaect-qr" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 my-auto">
+                            <ul class="list-group">
+                                <li class="list-group-item"><strong>UPI ID : csaect@indianbk</strong></li>
+                                <li class="list-group-item"><strong>Phone : 9449476262</strong></li>
+                                <li class="list-group-item"><strong>Online Payment Link</strong></li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </div>
                 <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div> -->
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Education Aid Modal -->
+    <div class="modal fade" id="educational-funds" tabindex="-1" role="dialog" aria-labelledby="educationalFundsModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="educationalFundsModal"><strong>Educational Funds</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-4">
+                        We are dedicated to assisting underprivileged students who require financial support to
+                        pursue their education through our regular scholarship programs. Our primary goal is to
+                        empower these students by providing them with opportunities that may have otherwise been out
+                        of reach. By offering scholarships, we aim to alleviate the financial burden they face and
+                        enable them to focus on their studies and future aspirations.<br /><br />
+
+                        Through our scholarship programs, we strive to bridge the gap between their aspirations and
+                        limited resources. We firmly believe that every individual, regardless of their
+                        socio-economic background, deserves an equal chance to excel academically and build a
+                        promising future.<br /><br />
+
+                        Our commitment extends beyond the provision of financial aid. We work closely with
+                        educational institutions, mentors, and volunteers to provide a comprehensive support system
+                        for our scholarship recipients. We offer guidance, mentorship, and resources to ensure that
+                        they have the necessary tools to succeed not only academically but also in their personal
+                        and professional lives.<br /><br />
+
+                        By investing in these underprivileged students, we are investing in a brighter and more
+                        inclusive future. We firmly believe that education is a powerful catalyst for social change
+                        and economic empowerment. Through our scholarship programs, we aim to break the cycle of
+                        poverty and create a more equitable society.<br /><br />
+
+                        Join us in our mission to transform lives through education. Together, we can make a
+                        significant difference and provide deserving students with the opportunities they deserve.
+                        Your support can help pave the way for a generation of individuals who will shape our world
+                        for the better.<br /><br />
+                    </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn header-btn mx-auto" data-dismiss="modal" data-toggle="modal"
+                        data-target="#donate">
+                        Donate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Funds Modal -->
+    <div class="modal fade" id="health-funds" tabindex="-1" role="dialog" aria-labelledby="healthFundsModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="healthFundsModal"><strong>Health Funds</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-4">
+                        We are committed to supporting individuals who require medical aid by providing them with
+                        essential medicines free of cost and financial assistance to ensure they receive the proper care
+                        they need. In our efforts to make healthcare accessible to all, we have also donated an
+                        ambulance to provide free ambulance services.<br /><br />
+
+                        Our primary objective is to alleviate the burden faced by those in need of medical assistance.
+                        We understand that accessing medicines and receiving appropriate care can be financially
+                        challenging for many individuals and families. Therefore, we strive to bridge this gap by
+                        supplying necessary medicines without any cost, ensuring that no one is deprived of essential
+                        treatments due to financial constraints.<br /><br />
+
+                        Additionally, we offer financial aid to individuals who require specialized treatments,
+                        surgeries, or medical procedures that may incur substantial expenses. Our aim is to enable these
+                        individuals to access quality healthcare services without worrying about the financial burden.
+                        By providing financial support, we hope to contribute to their well-being and improve their
+                        chances of recovery and a better quality of life.<br /><br />
+
+                        In line with our commitment to emergency medical services, we have generously donated an
+                        ambulance. This ambulance serves as a vital resource in facilitating timely transportation for
+                        patients in critical condition, ensuring they receive prompt medical attention. By offering this
+                        free ambulance service, we aim to enhance the accessibility of emergency care, particularly for
+                        those who may not have immediate access to transportation or cannot afford ambulance
+                        services.<br /><br />
+
+                        Through our initiatives, we aspire to make a positive impact on the lives of those in need,
+                        promoting health and well-being within our community. By providing free medicines, financial
+                        aid, and a dedicated ambulance service, we strive to ensure that everyone has the opportunity to
+                        receive the medical assistance they require, irrespective of their financial
+                        circumstances.<br /><br />
+                    </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn header-btn mx-auto" data-dismiss="modal" data-toggle="modal"
+                        data-target="#donate">
+                        Donate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Relief Funds Modal -->
+    <div class="modal fade" id="relief-funds" tabindex="-1" role="dialog" aria-labelledby="reliefFundsModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reliefFundsModal"><strong>Relief Funds</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-4">
+                        We actively participate in relief efforts during natural calamities such as floods, earthquakes,
+                        and other emergencies. Our organization is dedicated to providing support and assistance to
+                        those affected by these disasters. Through our initiatives, we strive to alleviate suffering and
+                        offer relief to communities in need.<br /><br />
+
+                        During such challenging times, we donate various essential items to aid in the recovery process.
+                        These items include food supplies, clothing, and blankets. We recognize the immediate needs of
+                        individuals and families who have been displaced or affected by the calamity, and our goal is to
+                        provide them with basic necessities to meet their daily requirements. By offering food,
+                        clothing, and blankets, we aim to bring some comfort and relief to those enduring difficult
+                        circumstances.<br /><br />
+
+                        Additionally, we extend our support to underprivileged senior citizens who are in need of
+                        shelter and care. We understand that during natural disasters, older adults can be particularly
+                        vulnerable and require specialized assistance. In collaboration with local authorities and
+                        partner organizations, we provide shelter facilities for senior citizens affected by these
+                        calamities. Our aim is to ensure their safety, well-being, and access to essential services
+                        during these challenging times.<br /><br />
+
+                        Through our commitment to disaster relief and assistance, we endeavor to make a positive impact
+                        on the lives of those affected by natural calamities. By donating essential items, offering
+                        shelter, and providing support to underprivileged senior citizens, we strive to bring hope,
+                        relief, and a sense of security to communities facing adversity. Together with our dedicated
+                        volunteers and partners, we work towards rebuilding lives and fostering resilience in the face
+                        of challenging circumstances.<br /><br />
+                    </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn header-btn mx-auto" data-dismiss="modal" data-toggle="modal"
+                        data-target="#donate">
+                        Donate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Child Help Modal -->
+    <div class="modal fade" id="child-help" tabindex="-1" role="dialog" aria-labelledby="childHelpModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="childHelpModal"><strong>Child Help</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-4">
+                        We place great importance on supporting orphanages and providing assistance to children in need.
+                        Our organization is dedicated to making regular visits to various orphanages, where we not only
+                        provide meals but also extend our support to fulfill their educational needs.<br /><br />
+
+                        During our visits, we prioritize ensuring that the children receive nutritious meals. We
+                        understand the significance of proper nutrition for their growth and development. Therefore, we
+                        collaborate with local partners to prepare and serve well-balanced meals to the children
+                        residing in orphanages. Our aim is to address their dietary requirements and contribute to their
+                        overall well-being.<br /><br />
+
+                        In addition to providing meals, we are committed to supporting the educational needs of the
+                        children in orphanages. We believe that education plays a crucial role in empowering individuals
+                        and opening doors to a brighter future. Through our initiatives, we offer various forms of
+                        educational support, which may include providing school supplies, books, uniforms, and
+                        facilitating access to educational resources. We strive to create an environment where these
+                        children can thrive academically and realize their full potential.<br /><br />
+
+                        Moreover, our visits to orphanages go beyond material support. We engage with the children,
+                        spend quality time with them, and provide emotional support. Our volunteers and staff members
+                        organize activities, games, and workshops to foster a positive and nurturing environment. We aim
+                        to create a sense of belonging and ensure that the children feel cared for and
+                        loved.<br /><br />
+
+                        Through our consistent efforts, we aspire to make a meaningful difference in the lives of these
+                        children. By providing meals and support for their educational needs, we aim to contribute to
+                        their overall development and help them build a strong foundation for a better future. Our
+                        commitment extends beyond the visits as we work to establish long-term relationships with the
+                        orphanages, continuously striving to make a positive impact in the lives of these vulnerable
+                        children.<br /><br />
+                    </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn header-btn mx-auto" data-dismiss="modal" data-toggle="modal"
+                        data-target="#donate">
+                        Donate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ration Distribution Modal -->
+    <div class="modal fade" id="ration-distribution" tabindex="-1" role="dialog"
+        aria-labelledby="rationDistributionModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="rationDistributionModal"><strong>Ration Disctribution</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-4">
+                        We are dedicated to serving underprivileged families by providing them with essential ration
+                        kits on a regular basis. Our organization has been successful in distributing over 80+ ration
+                        kits each month, ensuring that these families have access to vital food supplies.<br /><br />
+
+                        Every alternate month, we carefully assemble and distribute ration kits to these families in
+                        need. These kits contain a variety of essential food items that are necessary for their
+                        sustenance and well-being. Our goal is to help alleviate the financial burden of purchasing
+                        groceries and ensure that these families have access to nutritious meals.<br /><br />
+
+                        By providing these ration kits, we aim to make a positive impact on the lives of underprivileged
+                        families, particularly in terms of food security. We recognize the importance of consistent
+                        support and understand that access to regular meals is crucial for their overall health and
+                        development.<br /><br />
+
+                        Through our ongoing efforts, we strive to address the immediate needs of these families and
+                        provide them with a sense of stability and support. We are committed to making a difference in
+                        their lives and ensuring that they have access to essential food supplies on a regular
+                        basis.<br /><br />
+                    </p>
+                </div>
+                <div class="modal-footer text-center">
+                    <button type="button" class="btn header-btn mx-auto" data-dismiss="modal" data-toggle="modal"
+                        data-target="#donate">
+                        Donate
+                    </button>
+                </div>
             </div>
         </div>
     </div>
